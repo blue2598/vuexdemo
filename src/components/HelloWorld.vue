@@ -16,7 +16,7 @@
       <p><strong>通过Getter获取count的值是{{this.$store.getters.getCount}}</strong></p>
       <li>现在添加一个按钮，修改count的值，通过提交mutation修改</li>
       <button @click='addFn'>count+1</button>
-      <li>但是，官方并不介意我们这样直接去修改store里面的值，而是让我们去提交一个actions，在actions中提交mutation再去修改状态值</li>
+      <li>但是，官方并不建议我们这样直接去修改store里面的值，而是让我们去提交一个actions，在actions中提交mutation再去修改状态值</li>
       
     </ol>
   </div>
